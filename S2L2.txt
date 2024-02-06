@@ -1,0 +1,46 @@
+	Esercizio 1 
+SELECT *
+  FROM [northwind].[dbo].[Products]
+______________________________
+
+	Esercizio 2
+SELECT *
+  FROM [northwind].[dbo].[Products]
+  where UnitsInStock >= 40
+______________________________
+
+	Esercizio 3
+SELECT *
+  FROM [northwind].[dbo].[Employees]
+  where City = 'London'
+______________________________
+
+	Esercizio 4
+SELECT *
+  FROM [northwind].[dbo].[Orders]
+  ORDER BY Freight DESC
+______________________________
+
+	Esercizio 5
+SELECT *
+  FROM [northwind].[dbo].[Orders]
+  where Freight > 90 and Freight < 200
+______________________________
+
+	Esercizio 6
+SELECT *
+  FROM [northwind].[dbo].[Products]
+  where CategoryID = 1
+______________________________
+
+	Esercizio 7
+SELECT *
+  FROM [northwind].[dbo].[Order Details]
+  where Discount > 0
+
+______________________________
+
+	Esercizio 8
+SELECT *
+  FROM [northwind].[dbo].[Orders]
+  where CustomerID = 'BOTTM' and Freight > 50
